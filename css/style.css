@@ -1,10 +1,111 @@
-body { font-family: Arial, sans-serif; margin: 24px; line-height: 1.6; }
+
+body { 
+    font-family: Arial, sans-serif; 
+    font-size: 16px;
+    line-height: 1.6; 
+    background-color: #fff0f5; 
+    margin: 24px; 
+}
+
 header { margin-bottom: 16px; }
+
+footer { 
+    margin-top: 24px; 
+    font-size: 14px; 
+    opacity: 0.8; 
+}
+
+/* =========================================================
+ ЗАГОЛОВКИ ТА ПОСИЛАННЯ
+   ========================================================= */
+h1, h2, h3 {
+    color: #4a4a4a;
+    text-align: center;
+    font-style: italic; 
+}
+
 nav a { margin-right: 12px; }
-.card { padding: 14px; border: 1px solid #ddd; border-radius: 10px; margin: 12px 0; }
-.badge { display: inline-block; padding: 4px 10px; border: 1px solid #ccc; border-radius: 999px; font-size: 14px; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
-small { opacity: 0.8; }
-footer { margin-top: 24px; font-size: 14px; opacity: 0.8; }
-input, textarea, button { width: 100%; padding: 10px; margin-top: 8px; border-radius: 8px; border: 1px solid #ccc; }
+
+/* =========================================================
+ СЕЛЕКТОРИ: КЛАСИ 
+   ========================================================= */
+.card { 
+    padding: 14px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    margin: 12px 0; 
+    background-color: #ffffff; 
+}
+
+.badge { 
+    display: inline-block; 
+    padding: 4px 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 999px; 
+    font-size: 14px; 
+}
+
+.grid { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); 
+    gap: 12px; 
+}
+
+/* =========================================================
+ СЕЛЕКТОРИ: ІДЕНТИФІКАТОРИ 
+   ========================================================= */
+#top {
+    border-bottom: 3px dashed #ff69b4;
+}
+
+/* =========================================================
+ СПИСКИ (Марковані, нумеровані, визначень)
+   ========================================================= */
+ul, ol {
+    background-color: #fffafb; 
+    padding: 15px 15px 15px 40px; 
+    margin: 15px 0; 
+    border: 1px dashed #ffb6c1; 
+    border-radius: 8px;
+    font-size: 15px; 
+}
+
+dl {
+    background-color: #ffeef2;
+    padding: 15px;
+    border-left: 5px solid #ff69b4;
+}
+
+/* =========================================================
+ ТАБЛИЦІ
+   ========================================================= */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background-color: #cfe8ff;
+    font-size: 18px;
+}
+
+/* =========================================================
+ ЕЛЕМЕНТИ ФОРМ ТА КНОПКИ
+   ========================================================= */
+input, textarea, button { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 8px; 
+    border-radius: 8px; 
+    border: 1px solid #ccc; 
+}
+
 button { cursor: pointer; }
