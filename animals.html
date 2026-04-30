@@ -4,52 +4,153 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="Літвінко Карина Анатоліїївна" />
-  <title>Знайди свого домашнього улюбленця</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Знайди свого домашнього улюбленця — Тварини</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
-  <header>
+<body bgcolor="#fff0f5" link="blue" vlink="purple" alink="red">
+</body>
+  <header id="top">
     <h1>Знайди свого домашнього улюбленця</h1>
     <nav>
       <a href="index.html">Головна</a>
       <a href="animals.html">Тварини</a>
       <a href="charity.html">Благодійність</a>
-     <a href="adoption.html">Відповідальне всиновлення</a>
+      <a href="adoption.html">Відповідальне всиновлення</a>
       <a href="contacts.html">Контакти</a>
     </nav>
   </header>
 
-
-
-  <div class="grid">
+  <main>
     <div class="card">
-      <h2>Марта 🐶</h2>
-      <p><b>Вік:</b> ~2 роки</p>
-      <p><b>Характер:</b> лагідна, любить прогулянки, добре реагує на ласку.</p>
-      <p><b>Потреби:</b> повідець, безпечне місце для сну, час на адаптацію.</p>
+      <h2>Наші тваринки</h2>
+      <p>
+        На цій сторінці зібрані короткі анкети тваринок, які шукають дім.
+        Кожна з них має свій <b>характер</b>, звички та потреби, тому до вибору
+        майбутнього улюбленця варто ставитися <i>відповідально</i>.
+      </p>
+      <p>
+        Нижче подано короткий опис тварин, таблицю з фото та посиланнями для звернення.
+      </p>
+      <p>
+        <a href="#row-text">Перейти до опису в таблиці</a> |
+        <a href="contacts.html#contact-form">Перейти до форми звернення</a> |
+        <a href="https://uk.wikipedia.org/wiki/Притулок_для_тварин" target="_blank">Корисна сторінка в інтернеті</a>
+      </p>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Бетті 🐶</h2>
+        <p><b>Вік:</b> ~7 років</p>
+        <p><b>Характер:</b> лагідна, любить прогулянки, добре реагує на ласку.</p>
+        <p><b>Потреби:</b> повідець, безпечне місце для сну, час на адаптацію.</p>
+      </div>
+
+      <div class="card">
+        <h2>Димок 🐱</h2>
+        <p><b>Вік:</b> ~6 років</p>
+        <p><b>Характер:</b> спокійний, муркотливий, любить сидіти поруч.</p>
+        <p><b>Потреби:</b> лоток, кігтеточка, трошки терпіння на перші дні.</p>
+      </div>
+
+      <div class="card">
+        <h2>Магоні 🐱</h2>
+        <p><b>Вік:</b> ~2 роки</p>
+        <p><b>Характер:</b> розумний, обережний з незнайомими, з часом дуже відданий.</p>
+        <p><b>Потреби:</b> корм, лоток, кігтеточка.</p>
+      </div>
+
+      <div class="card">
+        <h2>Аліса 🐱</h2>
+        <p><b>Вік:</b> ~6 років</p>
+        <p><b>Характер:</b> ніжна, любить спати в теплому місці, грається з м’ячиком.</p>
+        <p><b>Потреби:</b> корм, лоток, чиста вода.</p>
+      </div>
     </div>
 
     <div class="card">
-      <h2>Рижик 🐱</h2>
-      <p><b>Вік:</b> ~1 рік</p>
-      <p><b>Характер:</b> спокійний, муркотливий, любить сидіти поруч.</p>
-      <p><b>Потреби:</b> лоток, кігтеточка, трошки терпіння на перші дні.</p>
+
+      <table border="1" cellpadding="10" cellspacing="5" width="100%">
+        <caption><b>Анкети тварин</b></caption>
+        <thead bgcolor="#cfe8ff">
+          <tr>
+            <th>Бетті</th>
+            <th>Димок</th>
+            <th>Магоні</th>
+            <th>Аліса</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="row-images">
+            <td align="center">
+              <a href="img/betty.jpg" target="_blank">
+                <img src="img/betty.jpg" alt="Бетті" width="120" height="120"
+                     style="object-fit: cover; border-radius: 8px;">
+              </a>
+            </td>
+            <td align="center">
+              <a href="img/dymok.jpg" target="_blank">
+                <img src="img/dymok.jpg" alt="Димок" width="120" height="120"
+                     style="object-fit: cover; border-radius: 8px;">
+              </a>
+            </td>
+            <td align="center">
+              <a href="img/magoni.jpg" target="_blank">
+                <img src="img/magoni.jpg" alt="Магоні" width="120" height="120"
+                     style="object-fit: cover; border-radius: 8px;">
+              </a>
+            </td>
+            <td align="center">
+              <a href="img/alisa.jpg" target="_blank">
+                <img src="img/alisa.jpg" alt="Аліса" width="120" height="120"
+                     style="object-fit: cover; border-radius: 8px;">
+              </a>
+            </td>
+          </tr>
+
+          <tr id="row-links">
+            <td align="center"><a href="contacts.html#contact-form">Написати про Бетті</a></td>
+            <td align="center"><a href="contacts.html#contact-form">Написати про Димка</a></td>
+            <td align="center"><a href="contacts.html#contact-form">Написати про Магоні</a></td>
+            <td align="center"><a href="contacts.html#contact-form">Написати про Алісу</a></td>
+          </tr>
+
+          <tr id="row-text">
+            <td>Лагідна собака для спокійної сім’ї.</td>
+            <td>Спокійний кіт, який любить бути поруч.</td>
+            <td>Обережний, але дуже відданий кіт.</td>
+            <td>Ніжна кішка, яка любить тепло і затишок.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <div class="card">
-      <h2>Боня 🐶</h2>
-      <p><b>Вік:</b> ~4 роки</p>
-      <p><b>Характер:</b> розумна, обережна з незнайомими, з часом дуже віддана.</p>
-      <p><b>Потреби:</b> тиха адаптація, регулярний вигул.</p>
-    </div>
-
-    <div class="card">
-      <h2>Сніжка 🐱</h2>
-      <p><b>Вік:</b> ~3 роки</p>
-      <p><b>Характер:</b> ніжна, любить спати в теплому місці, грається з м’ячиком.</p>
-      <p><b>Потреби:</b> корм, лоток, чиста вода.</p>
-    </div>
+  <h2>Галерея: Бетті зблизька</h2>
+  <p>
+    Ми знаємо, як важливо роздивитися майбутнього улюбленця! 
+    Тут ви можете побачити Бетті в різних форматах. 
+    <i>Натисніть на найбільше фото, щоб відкрити його у високій якості в новій вкладці.</i>
+  </p>
+  
+  <div style="text-align: center; margin-top: 15px;">
+    <img src="img/betty.jpg" alt="Бетті мініатюра" width="60" height="60" 
+         style="object-fit: cover; border-radius: 10px; vertical-align: middle; margin-right: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+    
+    <img src="img/betty.jpg" alt="Бетті стандарт" width="120" height="120" 
+         style="object-fit: cover; border-radius: 10px; vertical-align: middle; margin-right: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+    
+    <a href="img/betty.jpg" target="_blank">
+      <img src="img/betty.jpg" alt="Бетті велике фото" width="240" height="240" 
+           style="object-fit: cover; border-radius: 10px; vertical-align: middle; border: 3px solid #cfe8ff;">
+    </a>
   </div>
+</div>
+
+    <div class="card">
+      <p><a href="#top">Повернутися вгору сторінки</a></p>
+    </div>
+  </main>
 
   <footer>Автор: Літвінко Карина Анатоліїївна • 2026</footer>
 </body>
